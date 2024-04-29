@@ -10,7 +10,7 @@ function App() {
       <Router>
         
           <Routes>
-            {/* <Route exact path="/" element={<LoginPage />} />
+            {/* <Route exact path="/" element={} />
             <Route exact path="/pages/account" element={<AccountSelectionPage />} />
             <Route path="/asd/a" element={<LoadComponent/>} />
             <Route path="/pages/class/:accountId" element={<ClassPage />} /> 
