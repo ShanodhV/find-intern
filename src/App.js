@@ -1,14 +1,15 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { ThemeProvider } from 'styled-components';
-import themeStyle from './infrastructure';
+import themeStyle from './infrastructure/index';
+import NavigationBar from './components/common/navbar';
 
 
 function App() {
   return (
     <ThemeProvider theme={themeStyle}>
       <Router>
-        
+          <NavigationBar/>
           <Routes>
             {/* <Route exact path="/" element={} />
             <Route exact path="/pages/account" element={<AccountSelectionPage />} />
